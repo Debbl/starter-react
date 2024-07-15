@@ -10,5 +10,6 @@ updates:
       prefix: "chore(deps)"
 
     groups:
-      *:
-        applies-to: "version-updates"
+      update-dependencies:
+        patterns:
+          - "*"
