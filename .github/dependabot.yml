@@ -2,7 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    
+
     schedule:
       interval: "weekly"
 
@@ -10,5 +10,5 @@ updates:
       prefix: "chore(deps)"
 
     groups:
-      dev-dependencies::
+      dev-dependencies:
         applies-to: "version-updates"
