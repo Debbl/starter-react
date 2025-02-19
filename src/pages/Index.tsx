@@ -8,12 +8,14 @@ function Index() {
       <div className="text-gray-600">count {count}</div>
       <div className="flex items-center gap-x-2">
         <button
+          type="button"
           className="rounded-md border px-6 py-1 hover:bg-gray-100"
           onClick={() => setCount((c) => c + 1)}
         >
           +1
         </button>
         <button
+          type="button"
           className="rounded-md border px-6 py-1 hover:bg-gray-100"
           onClick={() => setCount((c) => c - 1)}
         >
