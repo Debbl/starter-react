@@ -21,7 +21,7 @@
   "devDependencies": {
     "@debbl/eslint-config": "^3.8.10",
     "@tailwindcss/postcss": "^4.0.7",
-    "@types/node": "^22.13.4",
+    "@types/node": "^24.0.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^5.0.0",
