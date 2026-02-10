@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.29.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -14,25 +14,25 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.2.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
-    "@debbl/eslint-config": "^3.8.10",
-    "@tailwindcss/postcss": "^4.0.7",
-    "@types/node": "^24.0.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^5.0.0",
-    "eslint": "^9.20.1",
-    "lint-staged": "^16.0.0",
-    "postcss": "^8.5.2",
-    "prettier-plugin-tailwindcss": "^0.7.0",
-    "simple-git-hooks": "^2.11.1",
-    "tailwindcss": "^4.0.7",
-    "typescript": "^5.7.3",
-    "vite": "^7.0.0"
+    "@debbl/eslint-config": "^3.15.2",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.2.2",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "eslint": "^10.0.0",
+    "lint-staged": "^16.2.7",
+    "postcss": "^8.5.6",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "simple-git-hooks": "^2.13.1",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

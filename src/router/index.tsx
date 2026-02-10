@@ -1,16 +1,16 @@
-import { createBrowserRouter } from "react-router-dom";
-import NotFound from "~/pages/404";
-import Index from "~/pages/Index";
+import { createBrowserRouter } from 'react-router-dom'
+import NotFound from '~/pages/404'
+import Index from '~/pages/Index'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Index />,
   },
   {
-    path: "*",
+    path: '*',
     element: <NotFound />,
   },
-]);
+])
 
-export { router };
+export { router }
